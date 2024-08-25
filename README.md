@@ -1,10 +1,10 @@
-#Minecraft Server插件：动态加载Agent
+# Minecraft Server插件：动态加载Agent
 
 在运行中出现警告是正常现象，忽略即可。
 
 本插件无需在启动时指定 -javaagent 和 sun.tools.attach.HotSpotVirtualMachine=true 即可动态加载agent，其底层实现是使用Unsafe修改sun.tools.attach.HotSpotVirtualMachine的ALLOW_ATTACH_SELF字段。
 
-#用法
+# 用法
 
 在config.yml文件的字符串数组agent-configs中添加成员字符串，格式为
 
