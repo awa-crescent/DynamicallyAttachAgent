@@ -1,0 +1,7 @@
+name: DynamicallyAttachAgent
+author: Crescent
+main: lunar.dynattagent.DynamicallyAttachAgent
+version: 1.0.0
+api-version: 1.19
+depend: [CrescentLib]
+load: STARTUP
