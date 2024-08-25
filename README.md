@@ -2,7 +2,7 @@
 
 在运行中出现警告是正常现象，忽略即可。
 
-本插件无需在启动时指定 -javaagent 和 sun.tools.attach.HotSpotVirtualMachine=true 即可动态加载agent，其底层实现是使用Unsafe修改sun.tools.attach.HotSpotVirtualMachine的ALLOW_ATTACH_SELF字段。
+本插件无需在启动时指定 -javaagent 和 jdk.attach.allowAttachSelf=true 即可动态加载agent，其底层实现是使用Unsafe修改sun.tools.attach.HotSpotVirtualMachine的ALLOW_ATTACH_SELF字段。
 
 # 用法
 
